@@ -41,7 +41,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-        holder.decsritption.setText(data_list.get(position).getStory());
+     //   holder.decsritption.setText(data_list.get(position).getStory());
 
         Picasso.with(context).load(data_list.get(position).getImage()).into(holder.imageView);
 

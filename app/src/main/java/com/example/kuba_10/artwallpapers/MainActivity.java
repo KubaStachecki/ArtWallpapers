@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
 
-        gridManager = new GridLayoutManager(this,2);
+        gridManager = new GridLayoutManager(this,3);
         recyclerView.setLayoutManager(gridManager);
 
 
